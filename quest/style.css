@@ -1,0 +1,53 @@
+/* (A) WRAPPER */
+#quizWrap {
+  max-width: 600px;
+  margin: 0 auto;
+  /* RECOMMENDED FIXED HEIGHT IF YOU HAVE CONTENT BELOW THE QUIZ */
+  /* SO THAT PAGE LAYOUT DOES NOT "JUMP" */
+  /* height: 250px; */
+}
+
+/* (B) QUESTION */
+#quizQn {
+  padding: 20px;
+  background: #16b34a;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 10px;
+  
+}
+
+/* (C) ANSWERS */
+#quizAns {
+  margin: 30px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+  position: center;
+    
+}
+#quizAns input[type=radio] { display: none; }
+#quizAns label {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #51cf11;
+}
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
+}
+
+/* (D) BODY... DOES NOT QUITE MATTER */
+html, body {
+  background: #cf7609;
+  font-family: arial, sans-serif;
+  background-image: url('https://i.pinimg.com/originals/2a/7d/e4/2a7de48bd086755f5fa45641419ed0f1.jpg');
+}
