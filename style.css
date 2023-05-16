@@ -18,8 +18,10 @@
 			transform: translate3d(0, -100%, 0) scale(.75);
 			opacity: 0;
 		}
-		а {
-      text-decoration: none;
+		a {
+			color:#000000;
+			text-decoration: none;
+
     }
 		.hero-inner {
 			background-image: url('https://sun9-86.userapi.com/impf/c844721/v844721619/a4f71/E7NB60krLSA.jpg?size=1920x1080&quality=96&sign=53dd0824b93b3ef99339f9d99ea6f279&c_uniq_tag=Wx-qI2aSH-u15KUpCqct3quaHmEEeKXsATvy4l4hoZw&type=album');
@@ -106,3 +108,4 @@
 		.maintext {
 			text-decoration: none;
 		}
+		
