@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Романовы: история династии</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="../Ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../Ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../Ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../Ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../Ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../Ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../Ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../Ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../Ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../Ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../Ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../Ico/favicon-16x16.png">
+    <link rel="manifest" href="../Ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <style type="text/css">
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            padding: 0 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        nav li a:hover {
+            color: #007bff;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .tile-menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .tile {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f0f000;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .tile:hover {
+            transform: scale(1.1);
+            background-color: #dddddd00;
+        }
+
+        .tile img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .tile h2 {
+            margin-top: 10px;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 98%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer p {
+            text-align: right;
+        }
+
+        /* Общие стили*/
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Стили для раздела контактов */
+        section {
+            margin: 50px;
+        }
+
+        section h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="..\hst.PNG" alt="Логотип сайта">
+            <h1>Романовы: история династии</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="..\menu\index.html">Главная</a></li>
+                <li><a href="..\about\index.html">О нас</a></li>
+                <li><a href="..\about\contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Наши контакты</h1>
+            <ul>
+                <li>Телефон: +7 (963) 529-93-14 </li>
+                <li>Email: ya.nik137@yandex.ru</li>
+                <li>Адрес: 656049, проспект Ленина, 61А, Барнаул, Алтайский край</li>
+            </ul>
+            <form method="post" action="send-email.php">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Романовы: история династии. Все права защищены.
+        </p>
+    </footer>
+</body>
+
+</html>
